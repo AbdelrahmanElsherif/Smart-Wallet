@@ -21,13 +21,13 @@ Server saves transaction history and account details to hard disk and sends them
 ---
 ## Smart Wallet System Flow 
 - Login and Access to the system <br />
-  1.In case of new user, User is required to fill some necessary information like Name,        UserName, Password, Balance, NationalID, address and age and he will be able to log in to samrt wallet system using the information previously filled. <br />
-  2.In case of previously registered user, User will be able to log in using username and password. <br />
-  3.In case login information filled(UserName and Password) are sent to the server and the server checks for the validity of these credentials, In case credentials are validated the user will have access to his account on the smart wallet system and its various operations but in case credentials are not validated, Error message stating the login failed will be dislayed to te user. <br />
+  1. In case of new user, User is required to fill some necessary information like Name,        UserName, Password, Balance, NationalID, address and age and he will be   able to log in to samrt wallet system using the information previously filled. <br />
+  2. In case of previously registered user, User will be able to log in using username and password. <br />
+  3. In case login information filled(UserName and Password) are sent to the server and the server checks for the validity of these credentials, In case credentials     are validated the user will have access to his account on the smart wallet system and its various operations but in case credentials are not validated, Error message   stating the login failed will be dislayed to te user. <br />
   
 - Smart Wallet System: <br />
-   1.User has access to smart wallet system and is able to perform different transactions like Deposit and withdrawal of money to his current balance, Both Redo and Undo of these transactions are supported, In case of withdrawl or deposit failure error messages is displayed to warn the user of the failure occurred. <br />
-   2.These transactions are stored in a stack of transactions to facilitate the redo and undo operations.  <br />
+   1. User has access to smart wallet system and is able to perform different transactions like Deposit and withdrawal of money to his current balance, Both Redo and      Undo of these transactions are supported, In case of withdrawl or deposit failure error messages is displayed to warn the user of the failure occurred. <br />
+   2. These transactions are stored in a stack of transactions to facilitate the redo and undo operations.  <br />
    3. Operations like Checking user current balance, printing transaction history and printing account details are supported as well  <br />
 
  ---
