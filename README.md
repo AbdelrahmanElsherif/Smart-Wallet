@@ -16,7 +16,7 @@ These information will be sent to the server to process it and then recieve the 
  Multi-threaded server that runs in localhost on port 1234, that enables different clients to connect to the same server with each client started a new thread is created for this client in which user can perform all operations mentioned before. <br /> 
 Server recives data entered by the user like Name, UserName, Password, Balance, NationalID, Address and Age from the UI side, these data is saved in memory and used in the operations performed by the user. <br /> 
 Server sends data after being processed according to the operation the user performed and the data can be displayed smoothly in UI.  <br />
-In Case an error occured, and error message is displayed in the console of the server indicating the error type, and a message is send to the client showing a message box to the user showing the error. <br />
+In Case an error occured, an error message is displayed in the console of the server indicating the error type, and an error message is sent to the client showing a message box to the user showing the error. <br />
 Server saves transaction history and account details to disk for printing when requested by the user. <br />
 While the server is running, the user can close the account and login more than once, but once the server is closed the client will not be able to login again and the user will have to sign up again as the client information is saved in memory not on disk. <br />
 
