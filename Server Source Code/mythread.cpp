@@ -35,7 +35,7 @@ void MyThread::readyRead()
 {
      QByteArray Data = socket->readAll();
 
-     qDebug() <<  "Client" <<socketDescriptor << "Requet: " << Data;
+     qDebug() <<  "Client" <<socketDescriptor << "Request: " << Data;
 
      std::string ReceivedData=Data.toStdString();
      int pos = ReceivedData.find(":");
