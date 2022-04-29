@@ -8,6 +8,7 @@ Simple UI implemented using QT C++ in which clients can login in or sign up to m
 New clients will first have to create new accounts and fill the required data which will be sent to the Server software where it will be stored then user ill be able to login in to the system and manager his account as he wishes, Previous users of the software will be able to login directly to the system without any extra steps. <br />
 Each user will be given unique ID and is able to manage his account using various operations like Deposit, Withdraw, Check Balance, Print Account details and Print transaction history. <br />
 This software mainly consists of two classes Client and Account classes which have a composition relationship where each Client HAS A Account. <br />
+ ![alt text](https://github.com/AbdelrahmanElsherif/Smart-Wallet/blob/main/Class%20Diagram.png?raw=true)  <br />
 Account class contains a stack of transactions the user can perform like Deposit and Withdraw, User can redo or undo any of these transactions, it also contains a struct which contains the transation type and a float value of the amount to be deposited or withdrawn.  <br /> 
 These info will be sent to the server to process it and then recieve the correct values to be displayed to the user. <br />
 
@@ -46,8 +47,6 @@ Server saves transaction history and account details to hard disk and sends them
  ## Future Work 
  - 
  
- ---
- ## Class Diagram 
-  ![alt text](https://github.com/AbdelrahmanElsherif/Smart-Wallet/blob/main/Class%20Diagram.png?raw=true)  <br />
+
   
   
