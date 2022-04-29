@@ -48,6 +48,6 @@ Server saves transaction history and account details to hard disk and sends them
  
  ---
  ## Class Diagram 
-  ![alt text](https://github.com/DohaMustafa/Nutrition-System/blob/main/ClassDiagram.png?raw=true)  <br />
+  ![alt text](https://github.com/AbdelrahmanElsherif/Smart-Wallet/blob/main/Class%20Diagram.png?raw=true)  <br />
   
   
