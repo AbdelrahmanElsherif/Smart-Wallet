@@ -34,8 +34,8 @@ While the server is running, the user can close the account and login more than 
  ---
  ## Usage
  - First, Download SmartWallet and MultiServer Folders found in the repo. 
- - Run the Server exe 
- - Run the SmartWallet exe 
+ - Run the Server exe (The server is a console application so it's run from terminal; ./MultiServer)
+ - Run SmartWallet exe 
  - Enter your data, then login, and perform operations as you like.
   ---
  ## To create exe on Ubuntu 
