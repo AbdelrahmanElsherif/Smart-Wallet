@@ -38,6 +38,9 @@ While the server is running, the user can close the account and login more than 
  - Run MultiServer exe (The server is a console application so it's run from terminal; ./MultiServer)
  - Run SmartWallet exe 
  - Enter your data, then login, and perform operations as you like.
+
+ ## If a permission problem occurs running the exe, change the exe permission of the client using the following command: sudo chmod +x SmartWallet 
+ ## and for server: sudo chmod +x MultiServer
   ---
  ## To create exe on Ubuntu 
   Run the following commands in the project directory terminal (client directory and server directory)<br/>
