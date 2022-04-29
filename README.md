@@ -29,6 +29,7 @@ While the server is running, the user can close the account and login more than 
   3. In case of previously registered user, user will be able to log in using username and password. <br />
   4. Login information filled(UserName and Password) are sent to the server and the server checks for the validity of these credentials, In case credentials are validated the user will have access to his account on the smart wallet system and its various operations but in case credentials are not validated, An Error message stating that the login operation failed will be dislayed to te user. <br />
   5. When the user requests to Redo a transaction, this action is considered a new transaction so it's added to the transaction history while when the user Undo a transaction, the last transaction is removed from the transaction history, and the user can undo all transactions until there are no transactions lift is history.
+  6. When the user wants to print Transaction history or current account information, a new file is created in the home path containing the required data.
   
 
  ---
