@@ -7,12 +7,12 @@
 Simple UI implemented using QT C++ in which clients can login in or sign up to monitor and manager their finanicial account. <br />
 New clients will first have to create new account and fill the required data which will be sent to the Server software where it will be stored in the memory then user will be able to login into the system and manage the account. Previous users of the software will be able to login directly to the system without any extra steps. <br />
 Each user will be given an account with a unique ID and will be able to manage the account using various operations like Deposit, Withdraw, Check Balance,  Redo Last Transaction, Undo Last Transaction, Print Account details and Print transaction history. <br />
-The Server mainly consists of two classes Client and Account classes which have a composition relationship where each Client HAS A Account. <br />
- ![alt text](https://github.com/AbdelrahmanElsherif/Smart-Wallet/blob/main/Class%20Diagram.png?raw=true)  <br />
 These information will be sent to the server to process it and then recieve the correct values to be displayed to the user. <br />
 
  ---
  ## Multi-Server Software (Server)
+ The Server mainly consists of two classes Client and Account classes which have a composition relationship where each Client HAS A Account. <br />
+ ![alt text](https://github.com/AbdelrahmanElsherif/Smart-Wallet/blob/main/Class%20Diagram.png?raw=true)  <br />
  Multi-threaded server that runs in localhost on port 1234, that enables different clients to connect to the same server with each client started a new thread is created for this client in which user can perform all operations mentioned before. <br /> 
 Server recives data entered by the user like Name, UserName, Password, Balance, NationalID, Address and Age from the UI side, these data is saved in memory and used in the operations performed by the user. <br /> 
 Server sends data after being processed according to the operation the user performed and the data can be displayed smoothly in UI.  <br />
