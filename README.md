@@ -11,7 +11,7 @@ These information will be sent to the server to process it and then recieve the 
 
  ---
  ## Multi-Server Software (Server)
- The Server mainly consists of two classes Client and Account classes which have a composition relationship where each Client HAS A Account. <br />
+ The Server mainly consists of two classes Client and Account classes which have an aggregation relationship where each Client HAS A Account. <br />
  ![alt text](https://github.com/AbdelrahmanElsherif/Smart-Wallet/blob/main/Class%20Diagram.png?raw=true)  <br />
  Multi-threaded server that runs in localhost on port 1234, that enables different clients to connect to the same server with each client started a new thread is created for this client in which user can perform all operations mentioned before. <br /> 
 Server recives data entered by the user like Name, UserName, Password, Balance, NationalID, Address and Age from the UI side, these data is saved in memory and used in the operations performed by the user. <br /> 
